@@ -34,7 +34,7 @@ const {loadModel, predict} = require('./inference');
 
         options:{
             payload:{
-                allow:'multipart/from-data',
+                allow:'multipart/form-data',
                 multipart:true,
             }
         }
